@@ -1,0 +1,63 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fefefe;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 1rem;
+    }
+    .slideshow {
+      width: 90%;
+      max-width: 900px;
+      padding: 2rem;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.1);
+    }
+    .slide {
+      display: none;
+      text-align: center;
+      padding: 1rem;
+    }
+    .slide.active {
+      display: block;
+    }
+    .slide h2 {
+      color: #0066cc;
+      margin-bottom: 1rem;
+    }
+    .slide p, .slide ul {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+    .slide ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .slide ul li {
+      margin-bottom: 0.5rem;
+    }
+    .controls {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .controls button {
+      padding: 0.6rem 1.2rem;
+      margin: 0 0.6rem;
+      border: none;
+      background: #0066cc;
+      color: white;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .controls button:hover {
+      background: #004a99;
+    }
